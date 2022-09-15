@@ -1,0 +1,254 @@
+/* resetando formatações padrões do site*/
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+/*cabecalho e configurando a nav-bar*/
+header {
+    background-color: blue;
+    padding-bottom: 48px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 75px 18px 75px;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    font-weight: bold;
+    gap: 35px;
+}
+
+.item {
+    color: white;
+    font-size: 22px;
+}
+
+/* conteudo apos o cabecalho*/
+.conteudo1 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 100px;
+    gap: 45px;
+}
+
+.titulo1 {
+    font-size: 65px;
+    color: #00e5fc;
+}
+
+.subtitulo1 {
+    color: white;
+    font-size: 22px;
+}
+
+.nav-bar a:hover {
+    color: #9a77aa;
+}
+
+span {
+    color: #fff;
+}
+
+.botao1 {
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 18px;
+    width: 275px;
+    border-radius: 50px;
+    background-color: #9742b9;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.botao1:hover {
+    /*opacity: 0.6;*/
+    background-color: #9c06dc;
+}
+
+/*apresentação do projeto*/
+.apresentacao {
+    background-color: #1c0051;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+hr{
+ color: white;
+}
+.conteudo2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 75%;
+    justify-content: flex-start;
+}
+
+.titulo2 {
+    font-size: 50px;
+    color: #00e5fc
+}
+
+.subtitulo2 {
+    color: white;
+    font-size: 18px;
+}
+
+/*inicio do conteudo principal*/
+.apoiador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 100px 25px 100px;
+}
+
+.conteudo-escrito1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 600px;
+}
+
+.format {
+    display: flex;
+    gap: 35px;
+}
+
+.titulo3 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #1c0051;
+}
+
+.subtitulo3 {
+    color: #1c0051;
+    font-size: 22px;
+}
+
+.botao2 {
+    border-color: blue;
+    color: blue;
+    font-weight: bold;
+    padding: 18px;
+    width: 275px;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.botao2:hover {
+    color: #fff;
+    background-color: blue;
+}
+
+/* conteudo realmente principal*/
+
+
+.conteudo3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    gap: 15px;
+}
+
+.conteudo4 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    gap: 15px;
+}
+
+.link {
+    color: blue;
+    border-color: blue;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: blue;
+    font-size: 18px;
+    color: white;
+}
+.link:hover{
+    opacity: 0.8;
+}
+
+/*primeira parte do footer*/
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 38px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    gap: 30px;
+}
+
+.conteudo-escrito3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.titulo4 {
+    display: flex;
+    align-items: center;
+    color: #1e2322;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    cursor: pointer;
+}
+
+.texto:hover {
+    color: #1e2322;
+}
+
+/*segunda parte do footer*/
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: flex-start;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.nav-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 25px;
+    padding: 25px;
+    font-size: 15px;
+}
+
+.padding {
+    padding: 25px;
+}
